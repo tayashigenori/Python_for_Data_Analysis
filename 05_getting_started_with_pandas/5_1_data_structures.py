@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from pandas import Series, DataFrame
 import pandas as pd
 import numpy as np
@@ -9,7 +10,7 @@ import numpy as np
 # create "obj",
 # a Series object
 #################
-print ">>> obj = Series([4, 7, -5, 3])"
+print ">>> obj = Series([4, 7, -5, 3])" # 出力結果だけだと分かりづらかったので、実行コマンドも print してある（以下同じ
 obj = Series([4, 7, -5, 3])
 
 # show obj
